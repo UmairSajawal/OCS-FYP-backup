@@ -1,0 +1,335 @@
+
+/* Change Brand Name Font*/
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+}
+
+/* Change Navigation Color*/
+.navbar #myMenu .custom-nav .nav-item a {
+    color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color: #f0aab1;
+}
+
+
+.underline-on-hover:hover, .underline-on-focus:focus {
+    text-decoration: underline;
+}
+
+
+
+
+.container {
+    border-radius: 15px;
+    margin-top: 130px;
+}
+body {
+    background-color: white;
+}
+
+.pBarContainer { 
+    width:100%;
+    height: 20px;
+    background-color: #E8F1FF ;
+    margin: 74px 0 5px 0;
+    border-radius: 15px;
+}
+
+.pBar {
+    font-family: 'Courier New', Courier, monospace;
+    height: 19px;
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 5px 2px;
+    margin: 1px 0 5px 0;
+}
+
+.formControl{
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+input[type=text], input[type=submit], button.btnBack {
+    font-size: 20px;
+    
+}
+input[type=submit] {
+    border-radius: 20px;
+    border:none;
+    padding: 10px 20px;
+    background-color: darkslategray;
+    color: white;
+}
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+
+button.btnBack {
+    border-radius: 20px;
+    border:none;
+    padding: 10px 20px;    
+    background-color: lightgray;
+}
+button.btnBack:hover {
+    border-radius: 20px;
+    border:none;
+    padding: 10px 20px;    
+    background-color: black;
+    color:white;
+}
+
+/* 2nd page*/
+.btn-1{
+    padding: 30px 20px 30px 20px;
+    width: 400px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-1:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+.btn-2{
+    padding: 30px 20px 30px 20px;
+    width: 400px;
+    border-radius: 45px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-2:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+
+/* 3rd page*/
+.btn-afr{
+    padding: 10px 15px 25px 15px;
+    width: 300px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.btn-afr:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+
+/* step == 4 page('multiple') */
+.btn-a{
+    padding: 25px 15px 25px 15px;
+    width: 300px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-a:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+
+
+
+
+/* step == 4.5 page */
+.btn-b{
+    padding: 23px 15px 25px 10px;
+    width: 270px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    gap: 10px; /* Space between icon and text */
+}
+.btn-b i {
+    margin-right: 10px;
+    color: orange; /* Set icon color to yellow */
+    font-size: 22px; /* Increase icon size */
+}
+.btn-b:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+/* 5th Page */
+.btn-c{
+    padding: 25px 15px 25px 15px;
+    width: 250px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.btn-c:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+
+/* 6th Page */
+.btn-d{
+    padding: 25px 15px 25px 15px;
+    width: 250px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.btn-d:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+
+/* 6th Page */
+.btn-e{
+    padding: 25px 15px 25px 15px;
+    width: 250px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.btn-e:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+/* 7th Page */
+.btn-f1 {
+    padding: 25px 10px 25px 10px;
+    width: 250px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.btn-f1:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+
+/* 8th Page */
+.btn-h0 {
+    padding: 25px 10px 25px 10px;
+    width: 250px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.btn-h0:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+/* 9th Page */
+.btn-g01 {
+    padding: 25px 10px 25px 10px;
+    width: 300px;
+    border-radius: 55px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.btn-g01:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+.btn-g01 b {
+    font-size: 20px;
+}
+
+/* 10th Page */
+.btnI0 {
+    padding: 15px 10px 15px 10px;
+    width: 250px;
+    border-radius: 45px;
+    margin-right: 15px;
+    font-size: 17px;
+}
+.btnI0:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+/* Message block in 10th page*/
+.message-input {
+    height: 170px;
+    width: 450px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* step 9 (Date) */
+.labDate {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    
+}
+.inpDate {
+    padding: 15px 25px 15px 25px;
+    width: 300px;
+    border-radius: 45px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+.inpDate:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+
+/* Step 14 */
+.writeInfo {
+    padding: 15px 25px 15px 25px;
+    width: 530px;
+    border-radius: 45px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+.writeInfo:hover {
+    cursor: pointer;
+    color: grey;
+    border: 2px solid orange;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

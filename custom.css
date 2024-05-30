@@ -1,0 +1,515 @@
+
+/* Change Brand Name Font*/
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Change Navigation Color*/
+.navbar #myMenu .custom-nav .nav-item a {
+    color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color: #f0aab1;
+}
+
+
+.underline-on-hover:hover, .underline-on-focus:focus {
+    text-decoration: underline;
+}
+
+.myButton {
+    background-color: #FFD166;
+    color: black;
+    width: 152px;
+    padding: 13px 30px 13px 30px;
+    border-radius: 27px;
+    border: none;
+    margin-top: 35px;
+    text-decoration: none;
+}
+.myButton:hover {
+    background-color: lightslategrey;
+    color: white;
+}
+/* Header Image Subtitle*/
+.font-italic {
+    font-size: 24px;
+    color: orange;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Margin for Title */
+.mainHeading {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px){
+    .myClass {
+        margin-top: 350px;
+        text-align: center;
+    }
+}
+.secondContent {
+    margin-top: 30px;
+    font-size: 1rem;  
+    line-height: 1.5;
+    text-align: justify;
+    min-height: 600px;  
+    width: 100%;
+    background-color: #FFD166;  
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+.secondContent h3 {
+    font-size: 1.8rem;  
+}
+
+.thirdContent {
+    align-items: center;
+    height: 800px;  
+    width: 100%;
+    background-color: #6c757d;;  
+    padding: 1rem 0;
+}
+
+/* Frequently Asked Questions */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+body {
+	background: #fff;
+	font-family: "Roboto", sans-serif;
+}
+
+.main-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.flex-center {
+	align-items: center;
+}
+.accordion-button{
+	margin-bottom: 10px;
+}
+.accordion-body {
+	margin-top: 15px;
+	padding: 25px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 10px;
+}
+
+
+/* Cards */
+body{
+    background-color: #f9f6f2;
+}
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+
+
+.cardButton {
+    background-color: #FFD166;
+    color: black;
+    width: 152px;
+    padding: 13px 30px 13px 30px;
+    border-radius: 27px;
+    border: none;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.cardButton:hover {
+    background-color: lightslategrey;
+    color: white;
+}
+
+
+
+/* carousel CSS*/
+.wrapper {
+    width: calc(100% - 100px);
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+	background-color: #000;
+    margin-bottom: 110px;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.wrapper>div {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	animation: animate 25s infinite;
+	opacity: 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.wrapper>div:nth-child(2) {
+	animation-delay: 5s;
+}
+.wrapper>div:nth-child(3) {
+	animation-delay: 10s;
+}
+.wrapper>div:nth-child(4) {
+	animation-delay: 15s;
+}
+.wrapper>div:nth-child(5) {
+	animation-delay: 20s;
+}
+@keyframes animate {
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+	40% {
+		transform: scale(1.2);
+	}
+}
+
+
+
+
+
+
+/* ////     Experience.php     //// */
+
+
+.chefPro { 
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    font-size: 1rem;  
+    line-height: 1.5;
+    text-align: justify;
+    min-height: 600px;  
+    width: calc(100% - 65px);
+    background-color: #ffd59a;  
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.main-text p {
+    text-align: left;
+}
+.star {
+    color: orange;
+    font-size: 20px; 
+
+}
+.bold-dot {
+    font-size: 30px; 
+    font-weight: bold;
+    color: black; 
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 0 0.5em;
+    border: none;
+    /*width: 350px;*/
+    
+}
+.carousel-inner {
+    padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+.card img {
+    height: 11em;
+    }
+}
+
+
+
+
+/* chef profile cards */
+.profile-area {
+    padding: 80px 0;
+}
+
+.card {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img1 img {
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+
+
+.img2 img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -50px;
+}
+.card:hover .img2 img {
+    border-color: darkcyan;
+    transition: .7s;
+}
+.main-text{
+    padding: 30px 0;
+    text-align: center;
+}
+.main-text h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0 0 20px;
+}
+.main-text p {
+    font-size: 16px;
+    padding: 0 35px;
+}
+.socials {
+    text-align: center;
+    padding-bottom: 20px;
+    display: inline-block; 
+}
+.socials i {
+    font-size: 20px;
+    color: darkcyan;
+    padding: 0 10px;
+}
+.button {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+}
+.button label {
+    height: 15px;
+    width: 15px;
+    background: green;
+    margin: 0 4px;
+    border-radius: 20px;
+}
+.chefExperirnceContent {
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 1rem;  
+    line-height: 1.5;
+    text-align: justify;
+    min-height: 600px;  
+    width: calc(100% - 165px);
+    background-color: #ffd59a;  
+    padding: 150px 20px 5px 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.chefExperirnceContent p {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+/* ////   Our Chef   /// */
+.ourChefContent {
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 1rem;  
+    line-height: 1.5;
+    text-align: justify;
+    min-height: 600px;  
+    width: calc(100% - 165px);
+    background-color: lightpink;  
+    padding: 150px 20px 5px 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ////   become_chef   /// */
+
+.chefButton {
+    background-color: #FFD166;
+    color: black;
+    width: 220px;
+    padding: 13px 30px 13px 30px;
+    border-radius: 27px;
+    border: none;
+    margin-top: 35px;
+    text-decoration: none;
+}
+.chefButton:hover {
+    background-color: lightslategrey;
+    color: white;
+}
+.chefExp {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    font-size: 1rem;  
+    line-height: 1.5;
+    text-align: justify;
+    min-height: 600px;  
+    width: calc(100% - 65px);
+    background-color: #ffd59a;  
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+.rowChef {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.img-container img {
+    height: 400px;
+    width: 700px;
+    border-radius: 35px;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .chefExp {
+        height: 500px;
+    }
+    .rowChef {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2, p {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-container img{
+        height: 300px;
+        border-radius: 35px;
+        margin-left: 35px;
+
+    }
+}
+
+.row-content {
+    margin-top: 30px;
+    font-size: 1rem;  
+    line-height: 1.5;
+    text-align: center;
+    min-height: 600px;  
+    width: 100%;
+    background-color: lightgray;  
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+.row-content h3 {
+    font-size: 1.8rem;  
+}
+.card {
+    width: 250px;
+}
+.rowCards {
+    margin-top: 40px;
+    padding: 25px 20px 5px 20px;
+    font-size: 1rem;  
+    line-height: 1.5;
+    text-align: justify;
+    min-height: 530px;  
+    margin-left: 40px;
+    width: calc(100% - 65px);
+    background-color: lightgray;  
+    border-radius: 20px;
+}
+
+/*   hire chefs in cities of pakistan start   */
+.rowCity {
+    margin-top: -50px;
+    z-index: 2;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+    font-size: 1rem;  
+    line-height: 1.5;
+    min-height: 600px;  
+    width: calc(100% - 65px);
+    background-color: #ffd59a;  
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+.rowCity h3 {
+    margin-top: 230px;
+}
+
+ /* //// Thanks.php  ///// */
+.rowThank {
+    margin-top: 95px;
+    font-size: 1rem;  
+    line-height: 1.5;
+    text-align: justify;
+    min-height: 500px;  
+    width: 100%;
+    background-color: #FFD166;  
+    padding: 120px 20px 5px 20px;
+    border-radius: 20px;
+}
